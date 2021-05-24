@@ -34,6 +34,44 @@ hr {
   margin-bottom: 0;
 }
 
+/*Main body settings*/
+
+.education-icon {
+  position: relative;
+}
+
+.education-icon > * {
+  float: left;
+}
+.education-icon > *:not(.text-center) {
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+table {
+  width: 90%;
+  margin-left: 2em;
+}
+
+.jobexp {
+  position: relative;
+  /*Will have to manually set this for each screen size*/
+  margin-top: 2.7em;
+}
+
+.jobexp > .col > h4 {
+  font-size: 3em;
+  margin-top: 0.1em;
+}
+
+.jobexp > .col > * {
+  float: left;
+}
+
+.co-tables:last-child {
+  margin-bottom: 2em;
+}
+
 .footer {
   min-height: 2em;
   background-color: #2477d6;
