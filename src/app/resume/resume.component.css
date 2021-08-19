@@ -76,6 +76,9 @@ table {
 .footer {
   min-height: 2em;
   background-color: #2477d6;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /*@media*/
