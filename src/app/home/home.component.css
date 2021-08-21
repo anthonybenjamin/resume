@@ -1,8 +1,43 @@
+h1{
+    font-family: 'Allison', cursive;
+    font-size: 7em;
+    color: honeydew;
+}
+
 #pro-pic{
     border-radius: 50%;
     border: solid black 8px;
+    width: 20em;
+    
 }
 
 .poop{
-    background-color: brown;
+    /*background-color: brown;*/
+    min-height: 20em;
+    backdrop-filter: blur(10px);
+    transition: ease-in-out;
+    background-color: rgba(47, 42, 42, 0.7);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
+
+.poop:hover{
+    
+}
+
+/*temp styles for testing*/
+
+.poop::after {
+    content: "";
+    background: url('../../assets/images/pic-html-on-page.jpg');
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;   
+  }
